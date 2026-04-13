@@ -1,0 +1,31 @@
+# Laboratório 07 — Especialização de LLMs com LoRA e QLoRA
+# requirements.txt
+
+# Infraestrutura base
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Hugging Face ecosystem
+transformers>=4.40.0
+datasets>=2.19.0
+accelerate>=0.29.0
+tokenizers>=0.19.0
+safetensors>=0.4.3
+huggingface-hub>=0.22.2
+
+# PEFT (LoRA / QLoRA) 
+peft>=0.10.0
+
+# Quantização 4-bit 
+bitsandbytes>=0.43.0
+
+# Treinamento supervisionado (SFTTrainer)
+trl>=0.8.6
+
+# Geração de dataset sintético
+google-generativeai>=0.5.0
+
+# Utilitários 
+scipy>=1.13.0
+numpy>=1.26.4
