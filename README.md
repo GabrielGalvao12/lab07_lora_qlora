@@ -97,6 +97,16 @@ python step1_generate_dataset.py
 python step2_3_4_finetune.py
 ```
 
+### Resultados obtidos
+
+Train Loss: 1.201
+Eval Loss: 1.079
+Mean Token Accuracy: ~0.72
+
+Modelo treinado com QLoRA (4-bit)
+LoRA (r=64, alpha=16, dropout=0.1)
+Dataset sintético
+
 ### Política de Uso de IA
 
 Partes geradas/complementadas com IA, revisadas por Gabriel.
