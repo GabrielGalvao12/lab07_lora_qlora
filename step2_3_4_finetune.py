@@ -16,7 +16,7 @@ from peft import LoraConfig, TaskType
 from trl import SFTTrainer
 
 # Configurações gerais
-BASE_MODEL      = "meta-llama/Llama-2-7b-hf"   # Modelo base (necessita acesso HF)
+BASE_MODEL = "meta-llama/Meta-Llama-3-8B"   # Modelo base (necessita acesso HF)
 OUTPUT_DIR      = "./results"
 ADAPTER_DIR     = "./lora_adapter"
 TRAIN_FILE      = "data/train.jsonl"
